@@ -1,12 +1,13 @@
+import platform
 def showinfo(tip, info):
     print("{}:{}".format(tip,info))
  
  
-showinfo("操作系统及版本信息",platform.platform())
-showinfo('获取系统版本号',platform.version())
-showinfo('获取系统名称', platform.system())
-showinfo('系统位数', platform.architecture())
-showinfo('计算机类型', platform.machine())
-showinfo('计算机名称', platform.node())
-showinfo('处理器类型', platform.processor())
-showinfo('计算机相关信息', platform.uname())
+showinfo("OS",platform.platform())
+showinfo('OS version',platform.version())
+showinfo('OS name', platform.system())
+showinfo('OS bit', platform.architecture())
+showinfo('Computer type', platform.machine())
+showinfo('Computer name', platform.node())
+showinfo('CPU version', platform.processor())
+showinfo('Computer infomation', platform.uname())
