@@ -15,3 +15,8 @@ showinfo('CPU version', platform.processor())
 showinfo('CPU numbers', multiprocessing.cpu_count())
 showinfo('Amount of memories', psutil.virtual_memory().total)
 showinfo('IP Address', socket.gethostbyname(socket.gethostname()))
+
+
+
+
+
